@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>使用POST傳值</title>
+</head>
+<!-- POST只能透過表單傳值 -->
+<!-- 資訊在F12內 不顯示在網址上 -->
+<body>
+    <!-- action=把表單資料帶到哪, method 選擇 傳送類型POST -->
+    <form action="要接收的檔案名" method="POST">
+        <!-- 用POST時  網址不會顯示"內容01"-->
+
+        <!-- 
+        在網頁使用F12 > Network > 輸入資料送出
+        在Name 選擇送出的資訊
+        送出的資料在右側的Payload 裡面 -->
+
+        <input type="text" name="內容01" value="">
+        <input type="submit" value="送出">
+
+
+    </form>
+</body>
+
+</html>
