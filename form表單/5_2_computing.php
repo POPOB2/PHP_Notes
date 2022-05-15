@@ -49,7 +49,7 @@ $bmi=round($weight/(($height/100)*($height/100)),1);
 
 
 
-    //函式header 用 location 定位到 : 06_result.php 的頁面去
+    //函式header 用 location 定位到 : 4_3_result.php 的頁面去
     header("location:4_3_result.php?bmi=$bmi &result=$result");
     //在header新增 &result=$result 帶入BMI分類
     
